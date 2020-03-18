@@ -6,7 +6,7 @@ namespace ASP_insertion_sort
     {
 // Function to sort array 
     // using insertion sort 
-    static void insertionSort(int[] arr) 
+    static void InsertionSort(int[] arr) 
     { 
         int n = arr.Length; 
         for (int i = 1; i < n; ++i) { 
@@ -27,7 +27,7 @@ namespace ASP_insertion_sort
   
     // A utility function to print 
     // array of size n 
-    static void printArray(int[] arr) 
+    static void PrintArray(int[] arr) 
     { 
         int n = arr.Length; 
         for (int i = 0; i < n; ++i) 
@@ -40,8 +40,8 @@ namespace ASP_insertion_sort
     public static void Main() 
     { 
         int[] arr = { 12, 11, 13, 5, 6 }; 
-        insertionSort(arr); 
-        printArray(arr); 
+        InsertionSort(arr); 
+        PrintArray(arr); 
     } 
     }
 }
